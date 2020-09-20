@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main1 {
+    width: 70%;
+    margin: 50px auto;
+    padding: 3px;
+    text-align: center;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    display: grid;
+    /* grid-template-rows: 150px 150px; */
+    grid-template-rows: repeat(2, 150px);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 150px 150px 150px; */
+    grid-gap: 20px;
+    /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+}
+.div1 {
+    background: red;
+}
+.div2 {
+    background: rebeccapurple;
+}
+.div3 {
+    background: royalblue;
+}
+.div4 {
+    background: tomato;
+}
+.div5 {
+    background: rgb(255, 0, 140);
+    grid-row-start: 1; grid-row-end: 1;
+    grid-column-start: 2; grid-column-end: 3;
+}
+.div6 {
+    background: rgba(255, 72, 0, 0.39);
+}
+
+
+
+
+
+.main2 {
+    width: 70%;
+    margin: 50px auto;
+    padding: 3px;
+    text-align: center;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    display: grid;
+    /* grid-template-rows: 150px 150px; */
+    grid-template-rows: repeat(2, 150px);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 150px 150px 150px; */
+    grid-gap: 20px;
+    /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+    grid-auto-rows: 150px;
+    /* align-items: center; */
+    /* align-items: start; */
+    /* justify-items: center; */
+}
+.div7 {
+    background: red;
+}
+.div8 {
+    background: rebeccapurple;
+    grid-column-start: 2;     grid-column-end: 4;
+
+}
+.div9 {
+    background: royalblue;
+    grid-column: 1/4;
+}
+.div10 {
+    background: tomato;
+}
+.div11 {
+    background: rgb(255, 0, 140);
+}
+.div12 {
+    background: rgba(255, 72, 0, 0.39);
+}
+
+
+.main3 {
+    width: 70%;
+    margin: 50px auto;
+    padding: 3px;
+    text-align: center;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    display: grid;
+    /* grid-template-rows: 150px 150px; */
+    grid-template-rows: repeat(2, 150px);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: min-content repeat(2, 1fr); */
+    /* grid-template-columns: max-content repeat(2, 1fr); */
+    /* grid-template-columns:minmax(150px, 250px) repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    /* grid-template-columns: 150px 150px 150px; */
+    grid-gap: 20px;
+    /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+    grid-auto-rows: 150px;
+}
+.div13 {
+    background: red;
+}
+.div14 {
+    background: rebeccapurple;
+}
+.div15 {
+    background: royalblue;
+}
+.div16 {
+    background: tomato;
+}
+.div17 {
+    background: rgb(255, 0, 140);
+
+}
+.div18 {
+    background: rgba(255, 72, 0, 0.39);
+}
